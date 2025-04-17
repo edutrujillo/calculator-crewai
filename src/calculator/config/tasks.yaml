@@ -1,0 +1,56 @@
+calculator_implementation:
+  description: >
+    Create a Python calculator that can perform basic arithmetic operations:
+    - Addition
+    - Subtraction
+    - Multiplication
+    - Division
+    The calculator should be implemented as a class with methods for each operation.
+    Include proper error handling for division by zero.
+  expected_output: >
+    A Python file named 'calculator.py' containing a Calculator class with:
+    - A constructor method
+    - Methods for each arithmetic operation
+    - Basic error handling
+    - Proper documentation
+  agent: developer
+
+code_review_and_security:
+  description: >
+    Review the calculator implementation and enhance it with:
+    - Input validation to ensure only numbers are accepted
+    - Proper type checking
+    - Security best practices
+    - Performance optimizations
+    - Clear error messages
+    - Proper exception handling
+    - Documentation improvements
+  expected_output: >
+    An updated version of 'calculator.py' that includes:
+    - Input validation
+    - Enhanced error handling
+    - Security improvements
+    - Performance optimizations
+    - Updated documentation
+    - The file must have all the functions and methods that are needed to be added to the calculator
+  agent: senior_developer
+
+calculator_testing:
+  description: >
+    Create comprehensive unit tests for the calculator implementation.
+    The tests should:
+    - Cover all arithmetic operations
+    - Test edge cases
+    - Validate input handling
+    - Test error conditions
+    - Achieve at least 90% code coverage
+    - Verify security checks
+  expected_output: >
+    A Python file named 'test_calculator.py' containing:
+    - Test cases for all operations
+    - Edge case tests
+    - Input validation tests
+    - Error handling tests
+    - Security check verification
+    - Documentation for test cases
+  agent: tester
